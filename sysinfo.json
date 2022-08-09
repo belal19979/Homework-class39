@@ -1,0 +1,39 @@
+{
+  "node": "v16.15.0",
+  "system": {
+    "manufacturer": "HP",
+    "model": "HP Pavilion Notebook"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-6200U",
+    "speed": 2.3
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "Windows",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19044"
+  },
+  "vscodeInfo": {
+    "version": "1.69.2",
+    "extensions": [
+      "christian-kohler.path-intellisense",
+      "CoenraadS.bracket-pair-colorizer",
+      "dbaeumer.vscode-eslint",
+      "DigitalBrainstem.javascript-ejs-support",
+      "dsznajder.es7-react-js-snippets",
+      "EditorConfig.EditorConfig",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-rename-tag",
+      "mgmcdermott.vscode-language-babel",
+      "oderwat.indent-rainbow",
+      "PKief.material-icon-theme",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "VisualStudioExptTeam.vscodeintellicode",
+      "vscode-icons-team.vscode-icons"
+    ],
+    "userSettings": {}
+  }
+}
