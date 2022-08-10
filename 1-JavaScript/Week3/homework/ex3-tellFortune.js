@@ -34,38 +34,33 @@ body, this code is now written once only in a separated function.
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(array) {
-  const randNum = Math.floor(Math.random()*array.length)
-  return array[randNum]
+  const randNum = Math.floor(Math.random() * array.length);
+  return array[randNum];
 }
 
-function tellFortune(childrenArray,partnerArray,locationArray,jobArray) {
-  const randomChild = selectRandomly(childrenArray)
-  const randomPartner = selectRandomly(partnerArray)
-  const randomLocation = selectRandomly(locationArray)
-  const randomJob= selectRandomly(jobArray)
+function tellFortune(childrenArray, partnerArray, locationArray, jobArray) {
+  const randomChild = selectRandomly(childrenArray);
+  const randomPartner = selectRandomly(partnerArray);
+  const randomLocation = selectRandomly(locationArray);
+  const randomJob = selectRandomly(jobArray);
 
-  return`You will be a ${randomJob} in ${randomLocation}, 
-  married to ${randomPartner} with ${randomChild} kids.`
-
+  return `You will be a ${randomJob} in ${randomLocation}, married to ${randomPartner} with ${randomChild} kids.`;
 }
 
 function main() {
-  const numKids = [1,2,3,4,5];
+  const numKids = [1, 2, 3, 4, 5];
 
-  const partnerNames = ["Olivia","Emma","Amelia","Sophia","Mia"];
+  const partnerNames = ['Olivia', 'Emma', 'Amelia', 'Sophia', 'Mia'];
 
-  const locations = ["netherlands","france","germany","italy","greece"];
+  const locations = ['netherlands', 'france', 'germany', 'italy', 'greece'];
 
-  const jobTitles = ["Engineer","doctor","lawyer","accountant","driver"];
+  const jobTitles = ['Engineer', 'doctor', 'lawyer', 'accountant', 'driver'];
 
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
 }
 
-
-
-// ! Do not change or remove the code below
 if (process.env.NODE_ENV !== 'test') {
   main();
 }
