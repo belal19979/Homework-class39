@@ -139,3 +139,10 @@ Browserslist: caniuse-lite is outdated. Please run:
 2022-08-11 10:06:03 error: *** Spell Checker Report ***
 
 
+2022-08-11 11:13:42 info: ------------------------------------------------
+2022-08-11 11:13:43 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2022-08-11 11:13:43 info: ------------------------------------------------
+2022-08-11 11:13:43 warn: A unit test file was not provided.
+2022-08-11 11:13:52 error: *** Spell Checker Report ***
+
+

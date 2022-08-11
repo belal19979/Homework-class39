@@ -20,7 +20,7 @@ function addToShoppingCart(shoppingCartArray, groceryItem) {
   const shoppingCartArrayCopy = [...shoppingCartArray];
 
   if (!groceryItem) {
-    return `You bought ${shoppingCartArrayCopy}!`;
+    return shoppingCartArrayCopy;
   }
 
   if (shoppingCartArrayCopy.length >= 3) {
