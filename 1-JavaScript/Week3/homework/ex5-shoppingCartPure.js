@@ -17,18 +17,19 @@ it pure. Do the following:
 ------------------------------------------------------------------------------*/
 // ! Function under test
 function addToShoppingCart(shoppingCartArray, groceryItem) {
-  // TODO complete this function
+  const shoppingCartArrayCopy = [...shoppingCartArray];
+
   if (!groceryItem) {
-    return `You bought ${shoppingCartArray}!`;
+    return `You bought ${shoppingCartArrayCopy}!`;
   }
 
-  if (shoppingCartArray.length >= 3) {
-    shoppingCartArray.shift();
+  if (shoppingCartArrayCopy.length >= 3) {
+    shoppingCartArrayCopy.shift();
   }
 
-  shoppingCartArray.push(groceryItem);
+  shoppingCartArrayCopy.push(groceryItem);
 
-  return shoppingCartArray;
+  return shoppingCartArrayCopy;
 }
 
 // ! Test functions (plain vanilla JavaScript)
