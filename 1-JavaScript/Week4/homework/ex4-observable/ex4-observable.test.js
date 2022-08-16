@@ -16,8 +16,8 @@ describe('createObservable', () => {
     const observable = createObservable();
 
     // Create two mocked listener functions
-    const listener1 = jest.fn();
-    const listener2 = jest.fn();
+    const listener1 = jest.fn((msg) => console.log(msg));
+    const listener2 = jest.fn((msg) => console.log(msg));
 
     // Subscribe both function to the observable
     observable.subscribe(listener1);
