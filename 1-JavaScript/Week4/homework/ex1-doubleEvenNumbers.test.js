@@ -12,11 +12,10 @@ Let's rewrite it (or _refactor_ it, as experienced developers would call it):
 // ! Function to be tested
 function doubleEvenNumbers(numbers) {
   // TODO rewrite the function body using `map` and `filter`.
-  const newNumbers = [];
-  numbers
+
+  const newNumbers = numbers
     .filter((number) => number % 2 === 0)
-    // eslint-disable-next-line no-restricted-syntax, hyf/use-map-result
-    .map((evenNum) => newNumbers.push(evenNum * 2));
+    .map((evenNum) => evenNum * 2);
 
   return newNumbers;
 }

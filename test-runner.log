@@ -861,3 +861,24 @@ Browserslist: caniuse-lite is outdated. Please run:
 2022-08-16 07:25:33 error: *** Spell Checker Report ***
 
 
+2022-08-19 08:55:40 info: ------------------------------------------------------
+2022-08-19 08:55:40 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-08-19 08:55:40 info: ------------------------------------------------------
+2022-08-19 08:55:57 info: All unit tests passed.
+2022-08-19 08:56:07 error: *** Spell Checker Report ***
+
+
+2022-08-19 09:01:13 info: -------------------------------------------------
+2022-08-19 09:01:13 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-19 09:01:13 info: -------------------------------------------------
+2022-08-19 09:01:18 info: All unit tests passed.
+2022-08-19 09:01:23 error: *** Spell Checker Report ***
+
+
+2022-08-19 09:01:43 info: -------------------------------------------------
+2022-08-19 09:01:43 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-19 09:01:43 info: -------------------------------------------------
+2022-08-19 09:01:47 info: All unit tests passed.
+2022-08-19 09:01:52 error: *** Spell Checker Report ***
+
+

@@ -32,9 +32,7 @@ const mondayTasks = [
 const hourlyRate = 25;
 
 function computeEarnings(tasks, rate) {
-  let minutesArr = [];
-
-  mondayTasks.forEach((task) => minutesArr.push(task.duration));
+  const minutesArr = mondayTasks.map((task) => task.duration);
 
   const numberOfMinutes = minutesArr.reduce((curr, acc) => curr + acc);
   const numberOfHours = numberOfMinutes / 60;
