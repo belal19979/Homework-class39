@@ -1,0 +1,814 @@
+2022-09-08 08:46:38 info: -------------------------------------------------
+2022-09-08 08:46:38 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2022-09-08 08:46:38 info: -------------------------------------------------
+2022-09-08 08:47:04 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-checkDoubleDigits.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex2-checkDoubleDigits.test.js
+  checkDoubleDigits
+    √ should exist and be executable (2 ms)
+    × should have all TODO comments removed (2 ms)
+    √ `checkDoubleDigits` should not contain unneeded console.log calls (1 ms)
+    √ should call new Promise()
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should be a function that takes a single argument (1 ms)
+    √ (9) should return a rejected promise with an Error object (2 ms)
+    √ (10) should return a promise that resolves to "This is a double digit number!" (2 ms)
+    √ (99) should return a promise that resolves to "This is a double digit number!"
+    √ (100) should return a rejected promise with an Error object
+
+  ● checkDoubleDigits › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 10 passed, 11 total
+Snapshots:   0 total
+Time:        5.55 s
+Ran all test suites matching /ex2-checkDoubleDigits.test.js/i.
+2022-09-08 08:47:19 error: *** Spell Checker Report ***
+
+
+2022-09-08 08:47:45 info: -------------------------------------------------
+2022-09-08 08:47:45 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2022-09-08 08:47:45 info: -------------------------------------------------
+2022-09-08 08:47:51 info: All unit tests passed.
+2022-09-08 08:47:57 error: *** Spell Checker Report ***
+
+
+2022-09-09 07:27:41 info: ---------------------------------------
+2022-09-09 07:27:41 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-09 07:27:41 info: ---------------------------------------
+2022-09-09 07:28:08 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:28
+        reject(new Error('Oops... Die rolled off the table.'));
+               ^
+
+Error: Oops... Die rolled off the table.
+    at D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:28:16
+    at new Promise (<anonymous>)
+    at rollOnce (D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:24:12)
+    at cb (D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:39:26)
+    at D:\web development\Homework-class39\3-UsingAPIs\Week1\unit-tests\ex3-rollDie.test.js:82:35
+    at D:\web development\Homework-class39\node_modules\jest-mock\build\index.js:445:39
+    at D:\web development\Homework-class39\node_modules\jest-mock\build\index.js:453:13
+    at mockConstructor (D:\web development\Homework-class39\node_modules\jest-mock\build\index.js:170:19)
+    at D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:39:9
+    at new Promise (<anonymous>)
+2022-09-09 07:28:25 error: *** Spell Checker Report ***
+
+
+2022-09-09 07:30:08 info: ---------------------------------------
+2022-09-09 07:30:08 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-09 07:30:08 info: ---------------------------------------
+2022-09-09 07:30:14 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:28
+        reject(new Error('Oops... Die rolled off the table.'));
+               ^
+
+Error: Oops... Die rolled off the table.
+    at D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:28:16
+    at new Promise (<anonymous>)
+    at rollOnce (D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:24:12)
+    at cb (D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:39:26)
+    at D:\web development\Homework-class39\3-UsingAPIs\Week1\unit-tests\ex3-rollDie.test.js:82:35
+    at D:\web development\Homework-class39\node_modules\jest-mock\build\index.js:445:39
+    at D:\web development\Homework-class39\node_modules\jest-mock\build\index.js:453:13
+    at mockConstructor (D:\web development\Homework-class39\node_modules\jest-mock\build\index.js:170:19)
+    at D:\web development\Homework-class39\3-UsingAPIs\Week1\homework\ex3-rollDie.js:39:9
+    at new Promise (<anonymous>)
+2022-09-09 07:30:21 error: *** Spell Checker Report ***
+
+
+2022-09-09 07:36:45 info: ---------------------------------------
+2022-09-09 07:36:45 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-09 07:36:45 info: ---------------------------------------
+2022-09-09 07:36:52 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    √ should exist and be executable (3 ms)
+    × should have all TODO comments removed (5 ms)
+    √ should call `new Promise()`
+    √ `resolve()` should be called with a one argument (1 ms)
+    √ `reject()` should be called with a one argument
+    √ should resolve when the die settles successfully (3 ms)
+    √ should reject with an Error when the die rolls off the table (3 ms)
+
+  ● rollDie › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        1.836 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-09 07:36:59 error: *** Spell Checker Report ***
+
+
+2022-09-09 07:38:15 info: ---------------------------------------
+2022-09-09 07:38:15 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-09 07:38:15 info: ---------------------------------------
+2022-09-09 07:38:22 info: All unit tests passed.
+2022-09-09 07:38:29 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:16:16 info: ----------------------------------------------
+2022-09-09 08:16:16 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:16:16 info: ----------------------------------------------
+2022-09-09 08:16:23 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    × should exist and be executable
+    × should have all TODO comments removed (1 ms)
+    × `rollDice` should not contain unneeded console.log calls
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex5-pokerDiceChain › should exist and be executable
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 5 total
+Snapshots:   0 total
+Time:        1.391 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+2022-09-09 08:16:29 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:18:15 info: ----------------------------------------------
+2022-09-09 08:18:15 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:18:15 info: ----------------------------------------------
+2022-09-09 08:18:21 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    × should exist and be executable (1 ms)
+    × should have all TODO comments removed
+    × `rollDice` should not contain unneeded console.log calls
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex5-pokerDiceChain › should exist and be executable
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 5 total
+Snapshots:   0 total
+Time:        1.011 s, estimated 2 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+2022-09-09 08:18:28 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:20:32 info: ----------------------------------------------
+2022-09-09 08:20:32 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:20:32 info: ----------------------------------------------
+2022-09-09 08:20:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    × should exist and be executable
+    × should have all TODO comments removed (1 ms)
+    × `rollDice` should not contain unneeded console.log calls
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex5-pokerDiceChain › should exist and be executable
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+  ● ex5-pokerDiceChain › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'D:\web development\Homework-class39\3-UsingAPIs\Week1\ex5-pokerDiceChain.js\ex5-pokerDiceChain.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:11:39
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 5 total
+Snapshots:   0 total
+Time:        1.07 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+2022-09-09 08:20:45 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:20:56 info: ----------------------------------------------
+2022-09-09 08:20:56 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:20:56 info: ----------------------------------------------
+2022-09-09 08:21:03 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    √ should exist and be executable (4 ms)
+    √ should have all TODO comments removed (1 ms)
+    × `rollDice` should not contain unneeded console.log calls (7 ms)
+    √ should resolve when all dice settle successfully (110 ms)
+    × should reject with an Error when a die rolls off the table (77 ms)
+
+  ● ex5-pokerDiceChain › `rollDice` should not contain unneeded console.log calls
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      137 |       });
+      138 |
+    > 139 |     expect(callsConsoleLog).toBe(false);
+          |                             ^
+      140 |   });
+      141 | }
+      142 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:139:29)
+
+  ● ex5-pokerDiceChain › should reject with an Error when a die rolls off the table
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      41 |
+      42 |   test('should reject with an Error when a die rolls off the table', async () => {
+    > 43 |     expect.assertions(3);
+         |            ^
+      44 |     expect(exported).toBeDefined();
+      45 |
+      46 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:43:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 3 passed, 5 total
+Snapshots:   0 total
+Time:        1.569 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+2022-09-09 08:21:10 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:21:39 info: ----------------------------------------------
+2022-09-09 08:21:39 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:21:39 info: ----------------------------------------------
+2022-09-09 08:21:45 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    √ should exist and be executable (4 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ `rollDice` should not contain unneeded console.log calls (3 ms)
+    √ should resolve when all dice settle successfully (117 ms)
+    × should reject with an Error when a die rolls off the table (73 ms)
+
+  ● ex5-pokerDiceChain › should reject with an Error when a die rolls off the table
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      41 |
+      42 |   test('should reject with an Error when a die rolls off the table', async () => {
+    > 43 |     expect.assertions(3);
+         |            ^
+      44 |     expect(exported).toBeDefined();
+      45 |
+      46 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:43:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        1.523 s, estimated 2 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+2022-09-09 08:21:53 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:22:36 info: ----------------------------------------------
+2022-09-09 08:22:36 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:22:36 info: ----------------------------------------------
+2022-09-09 08:22:42 info: All unit tests passed.
+2022-09-09 08:22:49 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:23:04 info: ----------------------------------------------
+2022-09-09 08:23:04 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 08:23:04 info: ----------------------------------------------
+2022-09-09 08:23:10 info: All unit tests passed.
+2022-09-09 08:23:17 error: *** Spell Checker Report ***
+
+
+2022-09-09 08:29:12 info: --------------------------------------------
+2022-09-09 08:29:12 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-09 08:29:12 info: --------------------------------------------
+2022-09-09 08:29:20 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (4 ms)
+    √ should have all TODO comments removed (2 ms)
+    √ `rollDice` should not contain unneeded console.log calls (2 ms)
+    √ should use `dice.map()` (1 ms)
+    √ should use `Promise.all()` (1 ms)
+    √ should resolve when all dice settle successfully (7 ms)
+    × should reject with an Error when a die rolls off the table (2 ms)
+
+  ● ex4-pokerDiceAll › should reject with an Error when a die rolls off the table
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should reject with an Error when a die rolls off the table', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |     expect(exported).toBeDefined();
+      67 |
+      68 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        1.839 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-09 08:29:28 error: *** Spell Checker Report ***
+
+
+2022-09-09 09:53:05 info: --------------------------------------------
+2022-09-09 09:53:05 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-09 09:53:05 info: --------------------------------------------
+2022-09-09 09:53:18 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (2 ms)
+    √ should have all TODO comments removed (2 ms)
+    √ `rollDice` should not contain unneeded console.log calls (2 ms)
+    √ should use `dice.map()`
+    √ should use `Promise.all()`
+    √ should resolve when all dice settle successfully (3 ms)
+    × should reject with an Error when a die rolls off the table (2 ms)
+
+  ● ex4-pokerDiceAll › should reject with an Error when a die rolls off the table
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should reject with an Error when a die rolls off the table', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |     expect(exported).toBeDefined();
+      67 |
+      68 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        2.302 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-09 09:53:30 error: *** Spell Checker Report ***
+
+
+2022-09-09 10:00:15 info: --------------------------------------------
+2022-09-09 10:00:15 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-09 10:00:15 info: --------------------------------------------
+2022-09-09 10:00:22 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (2 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ `rollDice` should not contain unneeded console.log calls (2 ms)
+    √ should use `dice.map()` (1 ms)
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully (3 ms)
+    √ should reject with an Error when a die rolls off the table (1 ms)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect(received).toBeInstanceOf(expected)
+
+    Expected constructor: Promise
+
+    Received value has no prototype
+    Received value: undefined
+
+      52 |
+      53 |     const promise = rollDice();
+    > 54 |     expect(promise).toBeInstanceOf(Promise);
+         |                     ^
+      55 |     const result = await promise;
+      56 |     expect(Array.isArray(result)).toBe(true);
+      57 |     expect(result).toHaveLength(5);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:54:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        2.095 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-09 10:00:29 error: *** Spell Checker Report ***
+
+
+2022-09-09 10:02:03 info: --------------------------------------------
+2022-09-09 10:02:03 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-09 10:02:03 info: --------------------------------------------
+2022-09-09 10:02:11 info: All unit tests passed.
+2022-09-09 10:02:20 error: *** Spell Checker Report ***
+
+
+2022-09-09 10:03:52 info: --------------------------------------------
+2022-09-09 10:03:52 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-09 10:03:52 info: --------------------------------------------
+2022-09-09 10:03:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (2 ms)
+    √ should have all TODO comments removed (3 ms)
+    √ `rollDice` should not contain unneeded console.log calls (2 ms)
+    √ should use `dice.map()` (1 ms)
+    √ should use `Promise.all()` (1 ms)
+    × should resolve when all dice settle successfully (4 ms)
+    √ should reject with an Error when a die rolls off the table (2 ms)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect(received).toBeInstanceOf(expected)
+
+    Expected constructor: Promise
+    Received constructor: Array
+
+      52 |
+      53 |     const promise = rollDice();
+    > 54 |     expect(promise).toBeInstanceOf(Promise);
+         |                     ^
+      55 |     const result = await promise;
+      56 |     expect(Array.isArray(result)).toBe(true);
+      57 |     expect(result).toHaveLength(5);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:54:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        1.209 s, estimated 2 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (D:\web development\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-09 10:04:07 error: *** Spell Checker Report ***
+
+
+2022-09-09 10:06:52 info: --------------------------------------------
+2022-09-09 10:06:52 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-09 10:06:52 info: --------------------------------------------
+2022-09-09 10:07:06 info: All unit tests passed.
+2022-09-09 10:07:16 error: *** Spell Checker Report ***
+
+
+2022-09-09 10:08:55 info: ----------------------------------------------
+2022-09-09 10:08:55 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 10:08:55 info: ----------------------------------------------
+2022-09-09 10:09:03 info: All unit tests passed.
+2022-09-09 10:09:12 error: *** Spell Checker Report ***
+
+
+2022-09-09 10:10:34 info: ----------------------------------------------
+2022-09-09 10:10:34 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-09 10:10:34 info: ----------------------------------------------
+2022-09-09 10:10:41 info: All unit tests passed.
+2022-09-09 10:10:49 error: *** Spell Checker Report ***
+
+
